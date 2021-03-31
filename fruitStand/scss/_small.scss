@@ -77,18 +77,18 @@ main h1 {
 	color: #419f5d;
 	font-size: 52px;
 }
-div.fruitBasket {
+.fruitBasket {
 	display: flex;
 	flex-wrap: wrap;
 }
-div.fruitBasket figure {
+.fruitBasket figure {
 	flex-basis: 100%;
 	text-align: center;
 }
-div.fruitBasket figure img {
+.fruitBasket figure img {
 	width: 60%;
 }
-div.fruitBasket figcaption {
+.fruitBasket figcaption {
 	color: #56625a;
 	font-size: 42px;
 }
