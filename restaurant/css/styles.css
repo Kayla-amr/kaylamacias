@@ -411,8 +411,9 @@ header img {
   height: 90px; }
 
 header {
-  background-color: #17e4b1;
-  padding: 1rem 2%; }
+  background-color: #ede4d5;
+  padding: 1rem 2%;
+  color: #e49217; }
 
 header h1 {
   margin: 1.6rem 0 0 0;
@@ -424,7 +425,7 @@ header h2 {
   font-weight: normal; }
 
 nav {
-  background-color: #111;
+  background-color: #b6a689;
   clear: both; }
 
 nav ul {
@@ -435,7 +436,7 @@ nav li {
   list-style-type: none; }
 
 nav li.active {
-  background-color: #333; }
+  background-color: #867453; }
 
 nav a {
   display: block;
@@ -446,7 +447,7 @@ nav a {
   text-decoration: none; }
 
 nav a:hover {
-  background-color: #444; }
+  background-color: #ddd6c8; }
 
 main {
   min-height: 10rem;
@@ -454,7 +455,7 @@ main {
   padding: 0; }
 
 main h1 {
-  color: #17e4b1; }
+  color: #e49217; }
 
 main h1,
 p {
@@ -481,7 +482,8 @@ main figure.world figcaption {
 
 footer {
   clear: both;
-  background-color: #17e4b1;
+  background-color: #b6a689;
+  color: #fff;
   text-align: center;
   padding: 1rem 2%;
   position: relative; }
