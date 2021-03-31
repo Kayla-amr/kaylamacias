@@ -13,16 +13,22 @@ body {
 
 
 /*----------- HEADER --------------*/
+ #headerWrapper{
+    background-color: #ddd;
+}
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    
 }
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
 
 /*----------- NAVIGATION --------------*/
-nav {
+ #navWrapper{
     background-color: #666;
+}
+nav {
+
 }
 nav ul {
     list-style-type: none;
@@ -54,15 +60,61 @@ nav ul li.active a {
     color: #fff;
 }
 /*----------- MAIN --------------*/
+#mainWrapper{
+    background-color: purple;
+}
 main {
+    background-color: white;
     padding: 0 2%;
     min-height: 10rem;
+    h1{
+        margin: 0;
+        padding-top: 5rem;
+    }
 }
+.homePage{
+    display: flex;
+    flex-basis: 33%;
+}
+.card{
+    border: 1px dashed red;
+}
+.card:hover img{
+    animation: bounce is 2;
+}
+    img{
+        position: relative;
+    }
+    
+    @keyframes bounce{
+        0% {
+            bottom: 0px;
+            animation-timing-function: ease-out;
+        }
+        25%{
+            bottom: 60px;
+            animation-timing-function: ease-in;
+        }
+        50% {
+            bottom: 0px;
+            animation-timing-function: ease-out;
+        }
+        75%{
+            bottom: 30px;
+            animation-timing-function: ease-in;
+        }
+        100%{
+            bottom: 0px;
+        }
+    }
 
 
 /*----------- FOOTER --------------*/
-footer {
+#footerWrapper{
     background-color: #ddd;
+}
+footer {
+    
     padding: .5rem 2%;
     text-align: center;
 }

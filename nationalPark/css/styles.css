@@ -320,9 +320,11 @@ body {
   font-family: Verdana, sans-serif; }
 
 /*----------- HEADER --------------*/
-header {
-  padding: .5rem 2%;
+#headerWrapper {
   background-color: #ddd; }
+
+header {
+  padding: .5rem 2%; }
 
 header h1 {
   margin: 0; }
@@ -332,7 +334,7 @@ header h2 {
   font-weight: normal; }
 
 /*----------- NAVIGATION --------------*/
-nav {
+#navWrapper {
   background-color: #666; }
 
 nav ul {
@@ -366,13 +368,22 @@ nav ul li.active a {
   color: #fff; }
 
 /*----------- MAIN --------------*/
+#mainWrapper {
+  background-color: purple; }
+
 main {
+  background-color: white;
   padding: 0 2%;
   min-height: 10rem; }
+  main h1 {
+    margin: 0;
+    padding-top: 5rem; }
 
 /*----------- FOOTER --------------*/
+#footerWrapper {
+  background-color: #ddd; }
+
 footer {
-  background-color: #ddd;
   padding: .5rem 2%;
   text-align: center; }
 
