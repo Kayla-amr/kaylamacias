@@ -10,6 +10,9 @@
     background-image: url(../images/header-medium.jpg);
     height: 240px;
 }
+header{
+    font-size: 32px;
+}
 
 
 /*----------- NAVIGATION --------------*/
@@ -21,7 +24,11 @@
 
 
 /*----------- MAIN --------------*/
-
+main{
+    .card{
+        flex-basis: 48%;
+        }
+}
 
 
 /*----------- FOOTER --------------*/

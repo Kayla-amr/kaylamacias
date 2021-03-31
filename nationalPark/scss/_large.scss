@@ -13,6 +13,9 @@ header, nav, main, footer {
         background-size: cover;
         background-position: center bottom;
     }
+    header{
+        font-size: 42px;
+    }
 
 /*----------- NAVIGATION --------------*/
 
@@ -20,7 +23,11 @@ header, nav, main, footer {
 
 /*----------- MAIN --------------*/
 
-
+main{
+        .card{
+            flex-basis: 31.333%;
+            }
+    }
 
 /*----------- FOOTER --------------*/
     
