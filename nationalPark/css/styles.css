@@ -396,8 +396,8 @@ main {
   text-align: center; }
   .card section {
     background-color: #444;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
     color: #eee;
     padding: 1rem 0; }
 
@@ -406,7 +406,22 @@ main {
 
 img {
   height: 90px;
-  position: relative; }
+  position: relative;
+  padding: 1rem; }
+
+p {
+  padding: 1rem 2vw; }
+
+a {
+  display: block;
+  background-color: #355635;
+  color: white;
+  padding: 1rem 0;
+  margin: 1rem 4vw;
+  border-radius: 10px; }
+
+a:hover {
+  background-color: #487648; }
 
 @keyframes bounce {
   0% {
