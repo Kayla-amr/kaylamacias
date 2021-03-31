@@ -68,9 +68,11 @@ main {
 main h1 {
 	color: #17e4b1;
 }
-main h1,
-p {
+main h1, p {
 	margin: 0 2%;
+}
+main p{
+	padding: 0 0 2% 0;
 }
 main figure.hero {
 	width: 100%;
