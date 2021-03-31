@@ -52,7 +52,9 @@ main{
 main h1 {
     color: #17e4b1;
 }
-
+main h1, p{
+    margin: 2%;
+}
 main figure.hero {
     width: 100%;
     margin: 0;
