@@ -457,9 +457,11 @@ main {
 main h1 {
   color: #e49217; }
 
-main h1,
-p {
-  margin: 0 2% 2% 0; }
+main h1, p {
+  margin: 0 2%; }
+
+main p {
+  padding: 0 0 2% 0; }
 
 main figure.hero {
   width: 100%;
