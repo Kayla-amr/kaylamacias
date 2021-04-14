@@ -216,11 +216,11 @@ main h1 {
 	flex-wrap: wrap;
 }
 .fruitBasket figure {
-	flex-basis: 100%;
-	text-align: center;
+	flex-basis: 96%;
+	margin: 1rem 2%;
 }
 .fruitBasket figure img {
-	width: 55%;
+	width: 46%;
 }
 .fruitBasket figcaption {
 	color: #56625a;

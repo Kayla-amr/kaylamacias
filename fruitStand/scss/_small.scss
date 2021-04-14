@@ -79,15 +79,14 @@ main h1 {
 }
 .fruitBasket {
 	display: flex;
-	flex-wrap: wrap;
-}
+	flex-wrap: wrap; }
+  
+  
 .fruitBasket figure {
-	flex-basis: 100%;
-	text-align: center;
+	flex-basis: 96%;
+	margin: 1rem 2%;
 }
-.fruitBasket figure img {
-	width: 60%;
-}
+
 .fruitBasket figcaption {
 	color: #56625a;
 	font-size: 42px;
