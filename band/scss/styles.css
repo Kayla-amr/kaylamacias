@@ -367,16 +367,16 @@ nav ul li:first-child a {
   border-left: none; }
 
 nav ul li a:hover {
-  background-color: #9cc9a7;
+  background-color: #fb7aff;
   color: #333; }
 
 nav ul li.active a {
-  background-color: #122116;
+  background-color: #450047;
   color: #fff; }
 
 /*----------- MAIN --------------*/
 #mainWrapper {
-  background-color: #355635; }
+  background-color: #000000; }
 
 main {
   background-color: white;
@@ -386,7 +386,7 @@ main {
 main h1 {
   margin: 0;
   padding-top: 5rem;
-  color: #24422b; }
+  color: #76007a; }
 
 .card-deck {
   display: flex;
@@ -399,12 +399,12 @@ main h1 {
   flex-basis: 100%;
   text-align: center; }
 
-.card h3 {
+figure h3 {
   color: #393939;
   padding: 0;
   margin: 0; }
 
-.card h4 {
+figure h4 {
   color: #76007a;
   margin: 0;
   padding: 0; }
@@ -455,18 +455,18 @@ figcaption {
 
 main a {
   display: block;
-  background-color: #355635;
+  background-color: #76007a;
   color: white;
   padding: 1rem 0;
   margin: 1rem 4vw;
   border-radius: 10px; }
 
 a:hover {
-  background-color: #487648; }
+  background-color: #76007a; }
 
 /*----------- FOOTER --------------*/
 #footerWrapper {
-  background-color: #24422b;
+  background-color: #000000;
   color: #fff; }
 
 footer {
