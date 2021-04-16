@@ -510,7 +510,9 @@ footer {
   div.news {
     clear: both;
     column-count: 2;
-    column-rule: 1px solid #ddd; } }
+    column-rule: 1px solid #ddd; } 
+  }
+
 @media only screen and (min-width: 35rem) {
   /* end of media query */ }
 /* end of media query */
