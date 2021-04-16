@@ -18,13 +18,9 @@ body {
 }
 
 /*----------- HEADER --------------*/
-#headerWrapper {
-	background-image: url(../images/header-small.jpg);
-	height: 140px;
-}
 header {
 	padding: .5rem 2%;
-	color: #e9e9e9;
+	color: #000000;
 	text-align: center;
 	padding-top: 5%;
 	font-size: 24px;
@@ -143,6 +139,18 @@ main h1 {
   clip-path: polygon(0 0, 100% 0, 50% 100%);
   margin: .5rem;
 }
+.gallery figure {
+	width: 100%;
+	height: 0;
+	padding-bottom: 150%;
+	/* 👆 image height / width * 100% */
+	position: relative;
+  }
+  .gallery figure img {
+	width: 100%;
+	height: auto;
+	position: absolute;
+  }
 
 figcaption {
 	padding: 1rem 2vw;
