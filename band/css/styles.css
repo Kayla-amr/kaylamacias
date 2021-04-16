@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html {
+ html {
 	line-height: 1.15;
 	/* 1 */
 	-webkit-text-size-adjust: 100%;
@@ -357,9 +357,12 @@ body {
 }
 
 /*----------- HEADER --------------*/
+#headerwrapper{
+	background-color: #000;
+}
+
 header {
 	padding: .5rem 2%;
-  background-color: #000;
 	color: #e9e9e9;
 	text-align: left;
 	padding-top: 5%;
@@ -367,13 +370,13 @@ header {
 }
 
 header h1 {
-  font-size: 72px;
+	font-size: 72px;
 	margin: 0;
 }
 
 header h2 {
 	margin: 0;
-  font-size: 24px;
+	font-size: 24px;
 	font-weight: normal;
 }
 
@@ -458,34 +461,34 @@ main h1 {
 	margin: 0;
 	padding: 0;
 }
-.myround img{
-  height: 120px;
-  float: right;
-  shape-outside: circle(50% at 50% 50%);
-  clip-path: circle(30% at 50% 50%);
-  margin: .5rem;
+.myround img {
+	height: 120px;
+	float: right;
+	shape-outside: circle(50% at 50% 50%);
+	clip-path: circle(30% at 50% 50%);
+	margin: .5rem;
 }
-.myarc img{
-  height: 120px;
-  float: right;
-  shape-outside: circle(100% at 100% 0%);
-  clip-path: circle(70% at 100% 0%);
-  margin: .5rem;
+.myarc img {
+	height: 120px;
+	float: right;
+	shape-outside: circle(100% at 100% 0%);
+	clip-path: circle(70% at 100% 0%);
+	margin: .5rem;
 }
 
-.mytriangle img{
-  height: 120px;
-  float: left;
-  shape-outside: polygon(0 0, 100% 0, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 0 100%);
-  margin: .5rem;
+.mytriangle img {
+	height: 120px;
+	float: left;
+	shape-outside: polygon(0 0, 100% 0, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 0 100%);
+	margin: .5rem;
 }
-.myplay img{
-  height: 120px;
-  float: left;
-  shape-outside: polygon(0 0, 100% 0, 50% 100%);
-  clip-path: polygon(0 0, 100% 0, 50% 100%);
-  margin: .5rem;
+.myplay img {
+	height: 120px;
+	float: left;
+	shape-outside: polygon(0 0, 100% 0, 50% 100%);
+	clip-path: polygon(0 0, 100% 0, 50% 100%);
+	margin: .5rem;
 }
 
 .gallery figure {
@@ -494,12 +497,12 @@ main h1 {
 	padding-bottom: 50%;
 	/* 👆 image height / width * 100% */
 	position: relative;
-  }
-  .gallery figure img {
+}
+.gallery figure img {
 	width: 90%;
 	height: auto;
 	position: absolute;
-  }
+}
 
 figcaption {
 	padding: 1rem 2vw;
@@ -521,7 +524,7 @@ a:hover {
 
 /*----------- FOOTER --------------*/
 #footerWrapper {
-	background-color: #24422b;
+	background-color: #000000;
 	color: #fff;
 }
 
@@ -540,6 +543,10 @@ footer {
 @media only screen and (min-width: 35rem) {
 	/*----------- BODY --------------*/
 	/*----------- HEADER --------------*/
+	#headerwrapper{
+		background-color: #000;
+	}
+
 	header {
 		font-size: 32px;
 	}
@@ -584,6 +591,10 @@ footer {
 
 	/*----------- BODY --------------*/
 	/*----------- HEADER --------------*/
+	#headerwrapper{
+		background-color: #000;
+	}
+	
 	header {
 		font-size: 42px;
 	}
